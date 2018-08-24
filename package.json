@@ -1,0 +1,19 @@
+{
+  "name": "poly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run watch",
+    "watch": "NODE_ENV=production webpack --config=node_modules/laravel-mix/setup/webpack.config.js --watch",
+    "build": "NODE_ENV=production webpack --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.24.6",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "laravel-mix": "^2.1.14"
+  }
+}
