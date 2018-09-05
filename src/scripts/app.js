@@ -1,2 +1,3 @@
-const test = 'test';
-console.log(`test: ${test}`);
+const example = require('./example');
+
+example();
